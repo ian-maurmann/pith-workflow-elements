@@ -13,12 +13,14 @@
         "ext-gd": "*",
         "ext-json": "*",
         "ext-pdo": "*",
-        "ext-readline": "*"
+        "ext-readline": "*",
+        "php-di/php-di": "^7.0"
     },
     "autoload": {
         "psr-4": {
             "Pith\\Framework\\Base\\WorkflowElements\\": [
-                "src/base/"
+                "src/base/",
+                "src/thin-wrappers/"
             ]
         }
     }
