@@ -1,0 +1,25 @@
+{
+    "name": "pith/workflow-elements",
+    "description": "Base Workflow Elements for Pith Framework",
+    "authors": [
+        {
+            "name": "Ian Maurmann",
+            "role": "Developer"
+        }
+    ],
+    "license": "MPL-2.0",
+    "require": {
+        "php": "^8.2",
+        "ext-gd": "*",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "ext-readline": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pith\\Framework\\Base\\WorkflowElements\\": [
+                "src/base/"
+            ]
+        }
+    }
+}
