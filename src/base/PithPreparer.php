@@ -24,7 +24,8 @@ declare(strict_types=1);
 namespace Pith\Framework\Base\WorkflowElements;
 
 
-use Pith\Framework\Internal\PithEscapeUtility;
+use Pith\Framework\Base\WorkflowElements\ThinWrappers\PithDependencyInjection;
+use Pith\Framework\Base\WorkflowElements\Utilities\PithEscapeUtility;
 
 /**
  * Class PithPreparer
