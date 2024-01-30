@@ -18,12 +18,12 @@
 
 declare(strict_types=1);
 
-namespace Pith\Framework\Internal;
+namespace Pith\Framework\Base\WorkflowElements\Utilities;
 
 
 /**
  * Class PithEscapeUtility
- * @package Pith\Framework\Internal
+ * @package Pith\Framework\Base\WorkflowElements\Utilities
  */
 class PithEscapeUtility
 {
