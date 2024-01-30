@@ -23,6 +23,9 @@
             ],
             "Pith\\Framework\\Base\\WorkflowElements\\ThinWrappers\\": [
                 "src/thin-wrappers/"
+            ],
+            "Pith\\Framework\\Base\\WorkflowElements\\Behaviors\\": [
+                "src/traits/"
             ]
         }
     }
