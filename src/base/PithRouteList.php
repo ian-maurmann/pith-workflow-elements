@@ -17,11 +17,11 @@
 declare(strict_types=1);
 
 
-namespace Pith\Framework;
+namespace Pith\Framework\Base\WorkflowElements;
 
 /**
  * Class PithRouteList
- * @package Pith\Framework
+ * @package Pith\Framework\Base\WorkflowElements
  */
 class PithRouteList
 {

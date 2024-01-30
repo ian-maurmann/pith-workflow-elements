@@ -19,14 +19,14 @@
 declare(strict_types=1);
 
 
-namespace Pith\Framework;
+namespace Pith\Framework\Base\WorkflowElements;
 
 use Pith\Framework\Internal\PithGetObjectClassDirectoryTrait;
 use ReflectionException;
 
 /**
  * Class PithPack
- * @package Pith\Framework
+ * @package Pith\Framework\Base\WorkflowElements
  */
 class PithPack extends PithWorkflowElement
 {

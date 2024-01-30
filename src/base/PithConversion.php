@@ -31,12 +31,12 @@
 declare(strict_types=1);
 
 
-namespace Pith\Framework;
+namespace Pith\Framework\Base\WorkflowElements;
 
 
 /**
  * Class PithConversion
- * @package Pith\Framework
+ * @package Pith\Framework\Base\WorkflowElements
  */
 class PithConversion
 {
