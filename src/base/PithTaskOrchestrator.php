@@ -24,8 +24,8 @@ declare(strict_types=1);
 namespace Pith\Framework\Base\WorkflowElements;
 
 /**
- * Class Pith\Framework\Base\WorkflowElements
- * @package Pith\Framework
+ * Class PithTaskOrchestrator
+ * @package Pith\Framework\Base\WorkflowElements
  */
 class PithTaskOrchestrator
 {
