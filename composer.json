@@ -26,6 +26,9 @@
             ],
             "Pith\\Framework\\Base\\WorkflowElements\\Behaviors\\": [
                 "src/traits/"
+            ],
+            "Pith\\Framework\\Base\\WorkflowElements\\Utilities\\": [
+                "src/utilities/"
             ]
         }
     }
