@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "93eee0ba6e1ec5de471b1bb6859c7607",
+    "content-hash": "a6350aa0bcb27be5513b76ca3d592a56",
     "packages": [
         {
             "name": "laravel/serializable-closure",
@@ -196,16 +196,16 @@
         },
         {
             "name": "pith/base",
-            "version": "0.1.0",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ian-maurmann/pith-base.git",
-                "reference": "cdd08e10d5dc4d023237ef308b044f84f2304379"
+                "reference": "765a2c70459ba68535df0c057ab22b1b4fedbf51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ian-maurmann/pith-base/zipball/cdd08e10d5dc4d023237ef308b044f84f2304379",
-                "reference": "cdd08e10d5dc4d023237ef308b044f84f2304379",
+                "url": "https://api.github.com/repos/ian-maurmann/pith-base/zipball/765a2c70459ba68535df0c057ab22b1b4fedbf51",
+                "reference": "765a2c70459ba68535df0c057ab22b1b4fedbf51",
                 "shasum": ""
             },
             "require": {
@@ -246,9 +246,9 @@
             "description": "Pith Framework Base",
             "support": {
                 "issues": "https://github.com/ian-maurmann/pith-base/issues",
-                "source": "https://github.com/ian-maurmann/pith-base/tree/0.1.0"
+                "source": "https://github.com/ian-maurmann/pith-base/tree/0.2.0"
             },
-            "time": "2024-01-31T06:47:20+00:00"
+            "time": "2024-01-31T07:10:45+00:00"
         },
         {
             "name": "psr/container",

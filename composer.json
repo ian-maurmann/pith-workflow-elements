@@ -15,7 +15,7 @@
         "ext-pdo": "*",
         "ext-readline": "*",
         "php-di/php-di": "^7.0",
-        "pith/base": "^0.1"
+        "pith/base": "^0.2"
     },
     "autoload": {
         "psr-4": {
