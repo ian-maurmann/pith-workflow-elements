@@ -25,7 +25,7 @@ namespace Pith\Framework\Base\WorkflowElements;
 
 
 use Pith\Framework\Base\ThinWrappers\PithDependencyInjection;
-use Pith\Framework\Base\WorkflowElements\Utilities\PithEscapeUtility;
+use Pith\Framework\Base\Utilities\PithEscapeUtility;
 
 /**
  * Class PithPreparer
