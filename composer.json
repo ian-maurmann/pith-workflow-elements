@@ -21,9 +21,6 @@
         "psr-4": {
             "Pith\\Framework\\Base\\WorkflowElements\\": [
                 "src/base/"
-            ],
-            "Pith\\Framework\\Base\\WorkflowElements\\ThinWrappers\\": [
-                "src/thin-wrappers/"
             ]
         }
     }
