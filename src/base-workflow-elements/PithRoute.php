@@ -163,7 +163,7 @@ class PithRoute extends PithWorkflowElement
      * Holds the namespace for the View Requisition object
      * @var string
      */
-    public string $view_requisition = '\\Pith\\Framework\\Internal\\EmptyViewRequisition'; // Use empty view requisition as default
+    public string $view_requisition = '\\Pith\\Framework\\Base\\FallbackWorkflowElements\\EmptyViewRequisition'; // Use empty view requisition as default
 
 
 
