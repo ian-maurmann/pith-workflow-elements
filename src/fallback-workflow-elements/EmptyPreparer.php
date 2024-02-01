@@ -20,7 +20,7 @@ declare(strict_types=1);
 
 namespace Pith\Framework\Base\FallbackWorkflowElements;
 
-use Pith\Framework\PithPreparer;
+use Pith\Framework\Base\WorkflowElements\PithPreparer;
 
 /**
  * Class EmptyPreparer
