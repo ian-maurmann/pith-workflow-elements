@@ -18,13 +18,13 @@
 
 declare(strict_types=1);
 
-namespace Pith\Framework\Internal;
+namespace Pith\Framework\Base\FallbackWorkflowElements;
 
 use Pith\Framework\PithAction;
 
 /**
  * Class EmptyAction
- * @package Pith\Framework\Internal
+ * @package Pith\Framework\Base\FallbackWorkflowElements
  */
 class EmptyAction extends PithAction
 {

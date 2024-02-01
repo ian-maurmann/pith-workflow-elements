@@ -20,13 +20,13 @@
 
 declare(strict_types=1);
 
-namespace Pith\Framework\Internal;
+namespace Pith\Framework\Base\FallbackWorkflowElements;
 
 use Pith\Framework\PithViewRequisition;
 
 /**
  * Class EmptyViewRequisition
- * @package Pith\Framework\Internal
+ * @package Pith\Framework\Base\FallbackWorkflowElements
  */
 class EmptyViewRequisition extends PithViewRequisition
 {

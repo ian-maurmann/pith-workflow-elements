@@ -18,13 +18,13 @@
 
 declare(strict_types=1);
 
-namespace Pith\Framework\Internal;
+namespace Pith\Framework\Base\FallbackWorkflowElements;
 
 use Pith\Framework\PithPreparer;
 
 /**
  * Class EmptyPreparer
- * @package Pith\Framework\Internal
+ * @package Pith\Framework\Base\FallbackWorkflowElements
  */
 class EmptyPreparer extends PithPreparer
 {
