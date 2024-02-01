@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd798133e8847c915fedc0c1cbc292c0",
+    "content-hash": "a6350aa0bcb27be5513b76ca3d592a56",
     "packages": [
         {
             "name": "laravel/serializable-closure",
@@ -193,6 +193,62 @@
                 }
             ],
             "time": "2023-11-02T10:04:50+00:00"
+        },
+        {
+            "name": "pith/base",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ian-maurmann/pith-base.git",
+                "reference": "765a2c70459ba68535df0c057ab22b1b4fedbf51"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ian-maurmann/pith-base/zipball/765a2c70459ba68535df0c057ab22b1b4fedbf51",
+                "reference": "765a2c70459ba68535df0c057ab22b1b4fedbf51",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "ext-json": "*",
+                "ext-pdo": "*",
+                "ext-readline": "*",
+                "php": "^8.2",
+                "php-di/php-di": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pith\\Framework\\Base\\": [
+                        "src/base/"
+                    ],
+                    "Pith\\Framework\\Base\\Behaviors\\": [
+                        "src/behaviors/"
+                    ],
+                    "Pith\\Framework\\Base\\Utilities\\": [
+                        "src/utilities/"
+                    ],
+                    "Pith\\Framework\\Base\\ThinWrappers\\": [
+                        "src/thin-wrappers/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ian Maurmann",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Pith Framework Base",
+            "support": {
+                "issues": "https://github.com/ian-maurmann/pith-base/issues",
+                "source": "https://github.com/ian-maurmann/pith-base/tree/0.2.0"
+            },
+            "time": "2024-01-31T07:10:45+00:00"
         },
         {
             "name": "psr/container",

@@ -14,15 +14,16 @@
         "ext-json": "*",
         "ext-pdo": "*",
         "ext-readline": "*",
-        "php-di/php-di": "^7.0"
+        "php-di/php-di": "^7.0",
+        "pith/base": "^0.2"
     },
     "autoload": {
         "psr-4": {
             "Pith\\Framework\\Base\\WorkflowElements\\": [
-                "src/base/"
+                "src/base-workflow-elements"
             ],
-            "Pith\\Framework\\Base\\WorkflowElements\\ThinWrappers\\": [
-                "src/thin-wrappers/"
+            "Pith\\Framework\\Base\\FallbackWorkflowElements\\": [
+                "src/fallback-workflow-elements"
             ]
         }
     }
