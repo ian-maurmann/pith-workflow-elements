@@ -107,7 +107,7 @@ class PithRoute extends PithWorkflowElement
     public string $pack;
 
 
-    public string $preparer = '\\Pith\\Framework\\Internal\\PassThroughPreparer'; // Use the pass-through preparer as default
+    public string $preparer = '\\Pith\\Framework\\Base\\FallbackWorkflowElements\\PassThroughPreparer'; // Use the pass-through preparer as default
 
     /**
      * Holds string expression of the resource folder path
