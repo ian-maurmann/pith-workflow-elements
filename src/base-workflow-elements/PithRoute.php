@@ -26,6 +26,7 @@ declare(strict_types=1);
 namespace Pith\Framework\Base\WorkflowElements;
 
 use Pith\Framework\Base\Behaviors\PithGetObjectClassDirectoryTrait;
+use Pith\Framework\Base\PithException;
 use ReflectionException;
 
 // ┌────────────────────────────────────────────────────────────────────────────┐
