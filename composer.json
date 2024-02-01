@@ -21,6 +21,9 @@
         "psr-4": {
             "Pith\\Framework\\Base\\WorkflowElements\\": [
                 "src/base-workflow-elements"
+            ],
+            "Pith\\Framework\\Base\\WorkflowElements\\FallbackWorkflowElements\\": [
+                "src/fallback-workflow-elements"
             ]
         }
     }
