@@ -22,7 +22,7 @@ declare(strict_types=1);
 
 namespace Pith\Framework\Base\FallbackWorkflowElements;
 
-use Pith\Framework\PithViewRequisition;
+use Pith\Framework\Base\WorkflowElements\PithViewRequisition;
 
 /**
  * Class EmptyViewRequisition
