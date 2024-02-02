@@ -24,7 +24,7 @@ use Pith\Framework\Base\WorkflowElements\PithAction;
 
 /**
  * Class EmptyAction
- * @package Pith\Framework\Base\FallbackWorkflowElements
+ * @package pith-workflow
  */
 class EmptyAction extends PithAction
 {

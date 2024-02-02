@@ -24,7 +24,7 @@ use Pith\Framework\Base\WorkflowElements\PithPreparer;
 
 /**
  * Class EmptyPreparer
- * @package Pith\Framework\Base\FallbackWorkflowElements
+ * @package pith-workflow
  */
 class EmptyPreparer extends PithPreparer
 {

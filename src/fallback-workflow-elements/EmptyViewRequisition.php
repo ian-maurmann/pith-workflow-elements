@@ -26,7 +26,7 @@ use Pith\Framework\Base\WorkflowElements\PithViewRequisition;
 
 /**
  * Class EmptyViewRequisition
- * @package Pith\Framework\Base\FallbackWorkflowElements
+ * @package pith-workflow
  */
 class EmptyViewRequisition extends PithViewRequisition
 {

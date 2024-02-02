@@ -25,7 +25,7 @@ use Pith\Framework\Base\WorkflowElements\PithPreparer;
 
 /**
  * Class PassThroughPreparer
- * @package Pith\Framework\Base\FallbackWorkflowElements
+ * @package pith-workflow
  */
 class PassThroughPreparer extends PithPreparer
 {
