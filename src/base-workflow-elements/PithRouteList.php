@@ -21,7 +21,7 @@ namespace Pith\Workflow;
 
 /**
  * Class PithRouteList
- * @package Pith\Workflow
+ * @package pith-workflow
  */
 class PithRouteList
 {

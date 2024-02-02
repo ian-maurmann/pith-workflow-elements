@@ -36,7 +36,7 @@ namespace Pith\Workflow;
 
 /**
  * Class PithConversion
- * @package Pith\Workflow
+ * @package pith-workflow
  */
 class PithConversion
 {

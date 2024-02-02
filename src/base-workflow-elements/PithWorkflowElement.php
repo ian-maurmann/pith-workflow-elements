@@ -30,7 +30,7 @@ use Pith\Framework\Base\ThinWrappers\PithDependencyInjection;
 
 /**
  * Class PithWorkflowElement
- * @package Pith\Workflow
+ * @package pith-workflow
  */
 class PithWorkflowElement
 {

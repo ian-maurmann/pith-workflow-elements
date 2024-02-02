@@ -29,7 +29,7 @@ use Pith\Framework\Base\Utilities\PithEscapeUtility;
 
 /**
  * Class PithPreparer
- * @package Pith\Workflow
+ * @package pith-workflow
  */
 class PithPreparer extends PithWorkflowElement
 {

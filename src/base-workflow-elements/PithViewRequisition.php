@@ -26,7 +26,7 @@ namespace Pith\Workflow;
 
 /**
  * Class PithViewRequisition
- * @package Pith\Workflow
+ * @package pith-workflow
  */
 class PithViewRequisition extends PithWorkflowElement
 {

@@ -26,7 +26,7 @@ namespace Pith\Workflow;
 
 /**
  * Class PithAccessLevel
- * @package Pith\Workflow
+ * @package pith-workflow
  */
 class PithAccessLevel
 {

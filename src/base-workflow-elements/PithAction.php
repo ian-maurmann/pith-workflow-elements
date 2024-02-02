@@ -40,7 +40,7 @@ namespace Pith\Workflow;
 
 /**
  * Class PithAction
- * @package Pith\Workflow
+ * @package pith-workflow
  */
 class PithAction extends PithWorkflowElement
 {

@@ -26,7 +26,7 @@ namespace Pith\Workflow;
 
 /**
  * Class PithQuery
- * @package Pith\Workflow
+ * @package pith-workflow
  */
 class PithQuery
 {

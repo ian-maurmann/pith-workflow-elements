@@ -25,7 +25,7 @@ namespace Pith\Workflow;
 
 /**
  * Class PithTaskOrchestrator
- * @package Pith\Workflow
+ * @package pith-workflow
  */
 class PithTaskOrchestrator
 {

@@ -65,7 +65,7 @@ use ReflectionException;
 
 /**
  * Class PithRoute
- * @package Pith\Workflow
+ * @package pith-workflow
  */
 class PithRoute extends PithWorkflowElement
 {

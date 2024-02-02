@@ -26,7 +26,7 @@ use ReflectionException;
 
 /**
  * Class PithPack
- * @package Pith\Workflow
+ * @package pith-workflow
  */
 class PithPack extends PithWorkflowElement
 {
