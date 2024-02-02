@@ -18,7 +18,7 @@
 
 declare(strict_types=1);
 
-namespace Pith\Framework\Base\FallbackWorkflowElements;
+namespace Pith\Workflow\GracefulFallback;
 
 use Pith\Framework\Base\WorkflowElements\PithPreparer;
 
