@@ -22,7 +22,7 @@
             "Pith\\Workflow\\": [
                 "src/base-workflow-elements"
             ],
-            "Pith\\Framework\\Base\\FallbackWorkflowElements\\": [
+            "Pith\\Workflow\\GracefulFallback\\": [
                 "src/fallback-workflow-elements"
             ]
         }
