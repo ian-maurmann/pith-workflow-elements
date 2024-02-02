@@ -23,7 +23,7 @@
 declare(strict_types=1);
 
 
-namespace Pith\Framework\Base\WorkflowElements;
+namespace Pith\Workflow;
 
 use Pith\Framework\Base\Behaviors\PithGetObjectClassDirectoryTrait;
 use Pith\Framework\Base\PithException;
@@ -65,7 +65,7 @@ use ReflectionException;
 
 /**
  * Class PithRoute
- * @package Pith\Framework\Base\WorkflowElements
+ * @package pith-workflow
  */
 class PithRoute extends PithWorkflowElement
 {
@@ -81,7 +81,7 @@ class PithRoute extends PithWorkflowElement
      * Holds the namespace for the Action object
      * @var string
      */
-    public string $action = '\\Pith\\Framework\\Internal\\EmptyAction'; // Use empty action as default
+    public string $action = '\\Pith\\Workflow\\GracefulFallback\\EmptyAction'; // Use empty action as default
 
     /**
      * Holds the name of the cache level, or string for Header Cache-Control
@@ -108,7 +108,7 @@ class PithRoute extends PithWorkflowElement
     public string $pack;
 
 
-    public string $preparer = '\\Pith\\Framework\\Base\\FallbackWorkflowElements\\PassThroughPreparer'; // Use the pass-through preparer as default
+    public string $preparer = '\\Pith\\Workflow\\GracefulFallback\\PassThroughPreparer'; // Use the pass-through preparer as default
 
     /**
      * Holds string expression of the resource folder path
@@ -164,7 +164,7 @@ class PithRoute extends PithWorkflowElement
      * Holds the namespace for the View Requisition object
      * @var string
      */
-    public string $view_requisition = '\\Pith\\Framework\\Base\\FallbackWorkflowElements\\EmptyViewRequisition'; // Use empty view requisition as default
+    public string $view_requisition = '\\Pith\\Workflow\\GracefulFallback\\EmptyViewRequisition'; // Use empty view requisition as default
 
 
 

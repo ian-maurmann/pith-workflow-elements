@@ -23,14 +23,14 @@
 declare(strict_types=1);
 
 
-namespace Pith\Framework\Base\WorkflowElements;
+namespace Pith\Workflow;
 
 
 use Pith\Framework\Base\ThinWrappers\PithDependencyInjection;
 
 /**
  * Class PithWorkflowElement
- * @package Pith\Framework\Base\WorkflowElements
+ * @package pith-workflow
  */
 class PithWorkflowElement
 {

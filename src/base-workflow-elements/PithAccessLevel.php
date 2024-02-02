@@ -21,12 +21,12 @@
 declare(strict_types=1);
 
 
-namespace Pith\Framework\Base\WorkflowElements;
+namespace Pith\Workflow;
 
 
 /**
  * Class PithAccessLevel
- * @package Pith\Framework\Base\WorkflowElements
+ * @package pith-workflow
  */
 class PithAccessLevel
 {
