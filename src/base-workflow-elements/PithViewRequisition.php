@@ -21,12 +21,12 @@
 declare(strict_types=1);
 
 
-namespace Pith\Framework\Base\WorkflowElements;
+namespace Pith\Workflow;
 
 
 /**
  * Class PithViewRequisition
- * @package Pith\Framework\Base\WorkflowElements
+ * @package Pith\Workflow
  */
 class PithViewRequisition extends PithWorkflowElement
 {

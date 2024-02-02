@@ -23,7 +23,7 @@
 declare(strict_types=1);
 
 
-namespace Pith\Framework\Base\WorkflowElements;
+namespace Pith\Workflow;
 
 use Pith\Framework\Base\Behaviors\PithGetObjectClassDirectoryTrait;
 use Pith\Framework\Base\PithException;
@@ -65,7 +65,7 @@ use ReflectionException;
 
 /**
  * Class PithRoute
- * @package Pith\Framework\Base\WorkflowElements
+ * @package Pith\Workflow
  */
 class PithRoute extends PithWorkflowElement
 {

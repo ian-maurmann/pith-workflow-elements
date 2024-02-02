@@ -21,7 +21,7 @@
 declare(strict_types=1);
 
 
-namespace Pith\Framework\Base\WorkflowElements;
+namespace Pith\Workflow;
 
 // ┌──────────────────────────────────────────────────────────────────────────┐
 // │    Action                                                                │
@@ -40,7 +40,7 @@ namespace Pith\Framework\Base\WorkflowElements;
 
 /**
  * Class PithAction
- * @package Pith\Framework\Base\WorkflowElements
+ * @package Pith\Workflow
  */
 class PithAction extends PithWorkflowElement
 {
