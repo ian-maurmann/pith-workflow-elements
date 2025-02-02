@@ -29,7 +29,7 @@ namespace Pith\Workflow;
  */
 class PithCorsHeaderHandler
 {
-    public function handleCors()
+    public function handleCorsHeader()
     {
         // Do nothing for now
     }
