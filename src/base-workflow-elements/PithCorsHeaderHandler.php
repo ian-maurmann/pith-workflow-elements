@@ -10,8 +10,8 @@
 
 
 /**
- * Pith CORS Handler (extend)
- * --------------------------
+ * Pith CORS Header Handler (extend)
+ * ---------------------------------
  *
  *
  * @noinspection PhpUnused - Ignore, will be extended.
@@ -25,9 +25,9 @@ namespace Pith\Workflow;
 
 
 /**
- * Class PithCorsHandler
+ * Class PithCorsHeaderHandler
  */
-class PithCorsHandler
+class PithCorsHeaderHandler
 {
     public function handleCors()
     {
