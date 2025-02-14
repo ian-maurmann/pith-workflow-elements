@@ -8,28 +8,29 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 # ===================================================================
 
+
 /**
- * Empty Action
- * ------------
+ * Pith CORS Header Handler (extend)
+ * ---------------------------------
  *
- * @noinspection PhpMissingParentCallCommonInspection  - Action parent methods exist as fallback.
+ *
+ * @noinspection PhpUnused - Ignore, will be extended.
  */
 
 
 declare(strict_types=1);
 
-namespace Pith\Workflow\GracefulFallback;
 
-use Pith\Workflow\PithAction;
+namespace Pith\Workflow;
+
 
 /**
- * Class EmptyAction
- * @package pith-workflow
+ * Class PithCorsHeaderHandler
  */
-class EmptyAction extends PithAction
+class PithCorsHeaderHandler
 {
-    public function runAction()
+    public function handleCorsHeader()
     {
-        // Do nothing.
+        // Do nothing for now
     }
 }

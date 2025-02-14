@@ -24,6 +24,9 @@
             ],
             "Pith\\Workflow\\GracefulFallback\\": [
                 "src/fallback-workflow-elements"
+            ],
+            "Pith\\Workflow\\StandardWorkflowElements\\": [
+                "src/standard-workflow-elements"
             ]
         }
     }
