@@ -65,7 +65,7 @@ class PithViewRequisition extends PithWorkflowElement
      * @param string $filepath
      * @param string $role
      */
-    public function addScript(string $human_readable_name, string $filepath, string $role = 'application-for-page')
+    public function addScript(string $human_readable_name, string $filepath, string $role = 'application-for-page'): void
     {
         // Roles:
         //     'reset'
@@ -82,7 +82,37 @@ class PithViewRequisition extends PithWorkflowElement
             'filepath'      => $filepath,
             'role'          => $role,
         ];
+    }
 
+    /**
+     * @param string $human_readable_name
+     * @param string $cdn_path
+     * @param string $integrity
+     * @param string $crossorigin
+     * @param string $fallback_path
+     * @param string $role
+     */
+    public function addCdnScript(string $human_readable_name, string $cdn_path, string $integrity, string $crossorigin, string $fallback_path, string $role = 'application-for-page'): void
+    {
+        // Roles:
+        //     'reset'
+        //     'library-for-layout'
+        //     'application-for-layout'
+        //     'library-for-page'
+        //     'application-for-page'
+        //     'library-for-partial'
+        //     'application-for-partial'
+
+        $this->resources[] = [
+            'name'              => $human_readable_name,
+            'resource_type'     => 'script',
+            'filepath'          => $cdn_path,
+            'role'              => $role,
+            'is_cdn'            => true,
+            'fallback_filepath' => $fallback_path,
+            'integrity'         => $integrity,
+            'crossorigin'       => $crossorigin,
+        ];
     }
 
     /**
