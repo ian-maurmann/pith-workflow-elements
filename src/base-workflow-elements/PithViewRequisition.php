@@ -120,7 +120,7 @@ class PithViewRequisition extends PithWorkflowElement
      * @param string $filepath
      * @param string $role
      */
-    public function addStylesheet(string $human_readable_name, string $filepath, string $role = 'application-for-page')
+    public function addStylesheet(string $human_readable_name, string $filepath, string $role = 'application-for-page'): void
     {
         // Roles:
         //     'font-preload'
@@ -138,6 +138,36 @@ class PithViewRequisition extends PithWorkflowElement
             'resource_type' => 'stylesheet',
             'filepath'      => $filepath,
             'role'          => $role,
+        ];
+    }
+
+    /**
+     * @param string $human_readable_name
+     * @param string $filepath
+     * @param string $role
+     */
+    public function addCdnStylesheet(string $human_readable_name, string $cdn_path, string $integrity, string $crossorigin, string $fallback_path, string $role = 'application-for-page'): void
+    {
+        // Roles:
+        //     'font-preload'
+        //     'reset'
+        //     'library-for-layout'
+        //     'application-for-layout'
+        //     'library-for-page'
+        //     'application-for-page'
+        //     'library-for-partial'
+        //     'application-for-partial'
+        //     'font-stylesheet'
+
+        $this->resources[] = [
+            'name'              => $human_readable_name,
+            'resource_type'     => 'stylesheet',
+            'filepath'          => $cdn_path,
+            'role'              => $role,
+            'is_cdn'            => true,
+            'fallback_filepath' => $fallback_path,
+            'integrity'         => $integrity,
+            'crossorigin'       => $crossorigin,
         ];
     }
 
