@@ -143,7 +143,10 @@ class PithViewRequisition extends PithWorkflowElement
 
     /**
      * @param string $human_readable_name
-     * @param string $filepath
+     * @param string $cdn_path
+     * @param string $integrity
+     * @param string $crossorigin
+     * @param string $fallback_path
      * @param string $role
      */
     public function addCdnStylesheet(string $human_readable_name, string $cdn_path, string $integrity, string $crossorigin, string $fallback_path, string $role = 'application-for-page'): void
@@ -171,7 +174,14 @@ class PithViewRequisition extends PithWorkflowElement
         ];
     }
 
-    public function addPreload(string $human_readable_name, string $filepath, string $role = 'preload', string $as = '')
+    /**
+     * @param string $human_readable_name
+     * @param string $filepath
+     * @param string $role
+     * @param string $as
+     * @return void
+     */
+    public function addPreload(string $human_readable_name, string $filepath, string $role = 'preload', string $as = ''): void
     {
         // Roles:
         //     'font-preload'
@@ -191,6 +201,43 @@ class PithViewRequisition extends PithWorkflowElement
             'filepath'      => $filepath,
             'role'          => $role,
             'as'            => $as,
+        ];
+    }
+
+    /**
+     * @param string $human_readable_name
+     * @param string $cdn_path
+     * @param string $integrity
+     * @param string $crossorigin
+     * @param string $fallback_path
+     * @param string $role
+     * @param string $as
+     * @return void
+     */
+    public function addCdnPreload(string $human_readable_name, string $cdn_path, string $integrity, string $crossorigin, string $fallback_path, string $role = 'preload', string $as = ''): void
+    {
+        // Roles:
+        //     'font-preload'
+        //     'reset'
+        //     'preload'
+        //     'library-for-layout'
+        //     'application-for-layout'
+        //     'library-for-page'
+        //     'application-for-page'
+        //     'library-for-partial'
+        //     'application-for-partial'
+        //     'font-stylesheet'
+
+        $this->resources[] = [
+            'name'              => $human_readable_name,
+            'resource_type'     => 'preload',
+            'filepath'          => $cdn_path,
+            'role'              => $role,
+            'as'                => $as,
+            'is_cdn'            => true,
+            'fallback_filepath' => $fallback_path,
+            'integrity'         => $integrity,
+            'crossorigin'       => $crossorigin,
         ];
     }
 
